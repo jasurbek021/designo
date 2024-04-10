@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Frontend Mentor | Designo Agency Website Challenge</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header l-wrapper">
+      <!-- LOGO -->
+      <a href="../index.html">
+        <img
+          class="f-logo"
+          src="../assets/shared/desktop/logo-dark.png"
+          alt="Designo Logo"
+        />
+      </a>
+      <!-- MOBILE NAV BUTTON -->
+      <button
+        class="f-mobileNavIcons"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Primary Navigation"
+      ></button>
+      <!-- PRIMARY NAVIGATION -->
+      <nav
+        id="primary-navigation"
+        class="c-primaryNavigation"
+        data-visible="false"
+      >
+        <ul class="c-primaryNavigation__inner">
+          <li>
+            <a class="c-primaryNavigation__link" href="about.html"
+              >Our Company</a
+            >
+          </li>
+          <li>
+            <a class="c-primaryNavigation__link" href="locations.html"
+              >Locations</a
+            >
+          </li>
+          <li>
+            <a class="c-primaryNavigation__link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="l-spacer">
+      <!-- ABOUT US CARD -->
+      <section class="c-aboutCard -about -reverse l-wrapper -hero">
+        <picture>
+          <source
+            width="476"
+            height="480"
+            srcset="../assets/about/desktop/image-about-hero.jpg"
+            media="(min-width: 1360px)"
+          />
+          <source
+            width="689"
+            height="320"
+            srcset="../assets/about/tablet/image-about-hero.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            width="375"
+            height="320"
+            class="c-aboutCard__image"
+            src="../assets/about/mobile/image-about-hero.jpg"
+            alt="A group of people sitting around a table talking."
+          />
+        </picture>
+        <!-- ABOUT-CONTENT -->
+        <div class="c-aboutUsCardContent">
+          <h1 class="c-aboutUsCardContent__header">About Us</h1>
+          <p class="c-aboutUsCardContent__text">
+            Founded in 2010, we are a creative agency that produces lasting
+            results for our clients. We’ve partnered with many startups,
+            corporations, and nonprofits alike to craft designs that make real
+            impact. We’re always looking forward to creating brands, products,
+            and digital experiences that connect with our clients' audiences.
+          </p>
+        </div>
+      </section>
+      <!-- WORLD CLASS TALENT CARD -->
+      <section class="c-aboutCard l-wrapper -hero">
+        <picture>
+          <source
+            width="476"
+            height="640"
+            srcset="../assets/about/desktop/image-world-class-talent.jpg"
+            media="(min-width: 1360px)"
+          />
+          <source
+            width="689"
+            height="320"
+            srcset="../assets/about/tablet/image-world-class-talent.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            width="375"
+            height="320"
+            class="c-aboutCard__image -world"
+            src="../assets/about/mobile/image-world-class-talent.jpg"
+            alt="A woman standing in front of a wall with pictures on it."
+          />
+        </picture>
+        <!-- ABOUT-CONTENT -->
+        <div class="c-aboutCardContent">
+          <h2 class="c-aboutCardContent__header">World-class talent</h2>
+          <p class="c-aboutCardContent__text">
+            We are a crew of strategists, problem-solvers, and technologists.
+            Every design is thoughtfully crafted from concept to launch,
+            ensuring success in its given market. We are constantly updating our
+            skills in a myriad of platforms.
+          </p>
+          <p class="c-aboutCardContent__text">
+            Our team is multi-disciplinary and we are not merely interested in
+            form — content and meaning are just as important. We give great
+            importance to craftsmanship, service, and prompt delivery. Clients
+            have always been impressed with our high-quality outcomes that
+            encapsulates their brand’s story and mission.
+          </p>
+        </div>
+      </section>
+      <!-- COUNTRIES -->
+      <section class="l-countriesSection">
+        <!-- CANADA -->
+        <div class="c-country">
+          <img
+            width="202"
+            height="202"
+            class="f-illustrationBackground -top"
+            src="../assets/shared/desktop/illustration-canada.svg"
+            alt="Communications and observation tower in Toronto, Ontario."
+          />
+          <h3 class="c-country__header">canada</h3>
+          <a class="f-btn -secondary" href="locations.html">see location</a>
+        </div>
+        <!-- AUSTRALIA -->
+        <div class="c-country">
+          <img
+            width="202"
+            height="202"
+            class="f-illustrationBackground -left"
+            src="../assets/shared/desktop/illustration-australia.svg"
+            alt="Sydney Opera House in Sydney, Australia"
+          />
+          <h3 class="c-country__header">australia</h3>
+          <a class="f-btn -secondary" href="locations.html">see location</a>
+        </div>
+        <!-- UNITED KINGDOM -->
+        <div class="c-country">
+          <img
+            width="202"
+            height="202"
+            class="f-illustrationBackground -bottom"
+            src="../assets/shared/desktop/illustration-united-kingdom.svg"
+            alt="Tower Bridge in London, United Kingdom"
+          />
+          <h3 class="c-country__header">united kingdom</h3>
+          <a class="f-btn -secondary" href="locations.html">see location</a>
+        </div>
+      </section>
+      <!-- THE REAL DEAL CARD -->
+      <section class="c-aboutCard -reverse l-wrapper -hero">
+        <picture>
+          <source
+            width="476"
+            height="640"
+            srcset="../assets/about/desktop/image-real-deal.jpg"
+            media="(min-width: 1360px)"
+          />
+          <source
+            width="689"
+            height="320"
+            srcset="../assets/about/tablet/image-real-deal.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            width="375"
+            height="320"
+            class="c-aboutCard__image"
+            src="../assets/about/mobile/image-real-deal.jpg"
+            alt=""
+          />
+        </picture>
+        <!-- ABOUT-CONTENT -->
+        <div class="c-aboutCardContent -real">
+          <h2 class="c-aboutCardContent__header">The real deal</h2>
+          <p class="c-aboutCardContent__text">
+            As strategic partners in our clients’ businesses, we are ready to
+            take on any challenge as our own. Solving real problems require
+            empathy and collaboration, and we strive to bring a fresh
+            perspective to every opportunity. We make design and technology more
+            accessible and give you tools to measure success.
+          </p>
+          <p class="c-aboutCardContent__text">
+            We are visual storytellers in appealing and captivating ways. By
+            combining business and marketing strategies, +we inspire audiences
+            to take action and drive real results.
+          </p>
+        </div>
+      </section>
+      <!-- LETS TALK -->
+      <section class="c-letsTalk -about l-wrapper">
+        <div class="c-letsTalk__inner">
+          <h2 class="c-letsTalk__header">
+            Let’s talk about <br />
+            your project
+          </h2>
+          <p class="c-letsTalk__text">
+            Ready to take it to the next level? Contact us today and find out
+            how our expertise can help your business grow. Get in touch
+          </p>
+        </div>
+        <a class="f-btn -primary" href="contact.html">Get in touch</a>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="l-footer">
+      <!-- FOOTER NAVIGATION -->
+      <nav>
+        <ul class="c-footerNavigation l-wrapper">
+          <li class="c-footerNavigation__list">
+            <a class="c-footerNavigation__link" href="../index.html"
+              ><img
+                class="f-logo"
+                src="../assets/shared/desktop/logo-light.png"
+                alt="Designo Logo"
+            /></a>
+          </li>
+          <li class="c-footerNavigation__list">
+            <a class="c-footerNavigation__link" href="about.html"
+              >Our Company</a
+            >
+          </li>
+          <li class="c-footerNavigation__list">
+            <a class="c-footerNavigation__link" href="locations.html"
+              >Locations</a
+            >
+          </li>
+          <li class="c-footerNavigation__list">
+            <a class="c-footerNavigation__link" href="contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- FOOTER CONTENT SECTION -->
+      <section class="l-footerContent l-wrapper">
+        <!-- INFO -->
+        <div class="c-info">
+          <strong class="c-info__header">Designo Central Office</strong>
+          <p class="c-info__text">3886 Wellington Street</p>
+          <p class="c-info__text">Toronto, Ontario M9C 3J5</p>
+        </div>
+        <div class="c-info">
+          <strong class="c-info__header">Contact Us (Central Office)</strong>
+          <p class="c-info__text">P : +1 253-863-8967</p>
+          <p class="c-info__text">M : contact@designo.co</p>
+        </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
